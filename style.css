@@ -1,0 +1,63 @@
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.display-4 {
+    font-size: 72px;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 576px) {
+    .cards{
+        display: flex;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+        overflow-x: auto;
+        width: 100%;
+        display: block;
+    }
+}
+
+.col {
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 575.98px){
+.tab {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1.5rem;
+}
+}
+@media screen and (min-width: 576px) {
+    .tab {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 1.5rem;
+}
+
+
+.color {
+    color: #007BFF;
+}
+
+.thead-light {
+    color: black;
+}
+
+footer {
+    color: #6C757D;
+    background-color: #F5F5F5;
+    padding: 3vh 0;
+}
